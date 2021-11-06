@@ -20,8 +20,8 @@ class mainStreamClass:
         self.camProcess = None
         self.cam_queue = None
         self.stopbit = None
-        self.camlink = '' #Add your RTSP cam link
-        self.framerate = 6
+        self.camlink = 'rtsp://admin:gazeme@192.168.178.37:554/h264Preview_07_main' #Add your RTSP cam link
+        self.framerate = 20 
     
     def startMain(self):
 
